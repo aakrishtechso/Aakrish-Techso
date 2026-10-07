@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="50%" stop-color="#F6F2FF"/><stop offset="100%" stop-color="#E9D9FF"/>
+    </linearGradient>
+    <filter id="shAp" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#A98BE3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgAp)"/>
+  <g transform="translate(40, 30)" filter="url(#shAp)">
+    <rect width="720" height="390" rx="16" fill="#FFFFFF" stroke="#CDB7F6" stroke-width="1.5"/>
+    <rect width="720" height="44" rx="16" fill="#F6F2FF"/>
+    <rect y="32" width="720" height="12" fill="#F6F2FF"/>
+    <line x1="0" y1="44" x2="720" y2="44" stroke="#E9D9FF" stroke-width="1.5"/>
+    <circle cx="28" cy="22" r="5" fill="#FDA4AF"/><circle cx="44" cy="22" r="5" fill="#FCD34D"/><circle cx="60" cy="22" r="5" fill="#86EFAC"/>
+    <rect x="250" y="12" width="220" height="20" rx="6" fill="#FFFFFF" stroke="#E9D9FF"/>
+    <text x="360" y="26" fill="#7C3AED" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Apex Fleet • Real-time Dispatch</text>
+    <g transform="translate(24, 60)">
+      <rect width="672" height="305" rx="12" fill="#FAF8FF" stroke="#E9D9FF"/>
+      <g transform="translate(20, 20)">
+        <rect width="400" height="265" rx="10" fill="#FFFFFF" stroke="#E9D9FF"/>
+        <text x="16" y="28" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Live GPS Route &amp; Manifest Matrix</text>
+        <path d="M 30 180 Q 120 70 200 130 T 360 80" fill="none" stroke="#CDB7F6" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="30" cy="180" r="8" fill="#7C3AED"/>
+        <circle cx="200" cy="130" r="10" fill="#A98BE3" stroke="#FFFFFF" stroke-width="2"/>
+        <circle cx="360" cy="80" r="8" fill="#10B981"/>
+        <rect x="180" y="150" width="120" height="40" rx="6" fill="#F6F2FF" stroke="#CDB7F6"/>
+        <text x="190" y="166" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">Truck #08 (Davis)</text>
+        <text x="190" y="180" fill="#047857" font-family="-apple-system, sans-serif" font-size="9">ETA 14:15 • 78% Done</text>
+      </g>
+      <g transform="translate(436, 20)">
+        <rect width="216" height="265" rx="10" fill="#FFFFFF" stroke="#E9D9FF"/>
+        <text x="16" y="28" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Fleet Metrics</text>
+        <rect x="16" y="44" width="184" height="60" rx="6" fill="#F6F2FF"/>
+        <text x="24" y="66" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="10">Active Transit</text>
+        <text x="24" y="88" fill="#7C3AED" font-family="-apple-system, sans-serif" font-size="20" font-weight="800">14 Units</text>
+        <rect x="16" y="114" width="184" height="60" rx="6" fill="#F6F2FF"/>
+        <text x="24" y="136" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="10">On-Time Rate</text>
+        <text x="24" y="158" fill="#047857" font-family="-apple-system, sans-serif" font-size="20" font-weight="800">99.4%</text>
+        <rect x="16" y="184" width="184" height="65" rx="6" fill="#FAF8FF" stroke="#CDB7F6"/>
+        <text x="24" y="206" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700">Digital Signatures</text>
+        <text x="24" y="222" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="9">248 manifests synced</text>
+      </g>
+    </g>
+  </g>
+</svg>

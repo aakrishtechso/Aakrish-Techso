@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgK" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="50%" stop-color="#F6F2FF"/><stop offset="100%" stop-color="#E9D9FF"/>
+    </linearGradient>
+    <filter id="shK" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#A98BE3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgK)"/>
+  <g transform="translate(40, 30)" filter="url(#shK)">
+    <rect width="720" height="390" rx="16" fill="#FFFFFF" stroke="#CDB7F6" stroke-width="1.5"/>
+    <rect width="720" height="44" rx="16" fill="#F6F2FF"/>
+    <rect y="32" width="720" height="12" fill="#F6F2FF"/>
+    <line x1="0" y1="44" x2="720" y2="44" stroke="#E9D9FF" stroke-width="1.5"/>
+    <circle cx="28" cy="22" r="5" fill="#FDA4AF"/><circle cx="44" cy="22" r="5" fill="#FCD34D"/><circle cx="60" cy="22" r="5" fill="#86EFAC"/>
+    <rect x="250" y="12" width="220" height="20" rx="6" fill="#FFFFFF" stroke="#E9D9FF"/>
+    <text x="360" y="26" fill="#7C3AED" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Kromia Asset Analytics • Risk Modeling</text>
+    <g transform="translate(24, 60)">
+      <rect width="672" height="305" rx="12" fill="#FAF8FF" stroke="#E9D9FF"/>
+      <g transform="translate(20, 20)">
+        <rect width="400" height="265" rx="10" fill="#FFFFFF" stroke="#E9D9FF"/>
+        <text x="16" y="28" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Multi-Asset Yield &amp; Beta Curve</text>
+        <path d="M 24 210 Q 90 190 140 130 T 260 90 T 380 40" fill="none" stroke="#7C3AED" stroke-width="3"/>
+        <path d="M 24 210 Q 90 190 140 130 T 260 90 T 380 40 L 380 230 L 24 230 Z" fill="#E9D9FF" opacity="0.3"/>
+        <circle cx="140" cy="130" r="5" fill="#7C3AED"/>
+        <circle cx="260" cy="90" r="5" fill="#A98BE3"/>
+        <circle cx="380" cy="40" r="6" fill="#10B981"/>
+        <text x="24" y="248" fill="#6B7280" font-family="monospace" font-size="9">Jan</text>
+        <text x="110" y="248" fill="#6B7280" font-family="monospace" font-size="9">Mar</text>
+        <text x="200" y="248" fill="#6B7280" font-family="monospace" font-size="9">May</text>
+        <text x="290" y="248" fill="#6B7280" font-family="monospace" font-size="9">Jul</text>
+        <text x="360" y="248" fill="#6B7280" font-family="monospace" font-size="9">Sep</text>
+      </g>
+      <g transform="translate(436, 20)">
+        <rect width="216" height="265" rx="10" fill="#FFFFFF" stroke="#E9D9FF"/>
+        <text x="16" y="28" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Telemetry Engine</text>
+        <rect x="16" y="44" width="184" height="60" rx="6" fill="#F6F2FF"/>
+        <text x="24" y="66" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="10">Volatility Factor</text>
+        <text x="24" y="88" fill="#7C3AED" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">1.14 Beta</text>
+        <rect x="16" y="114" width="184" height="60" rx="6" fill="#F6F2FF"/>
+        <text x="24" y="136" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="10">Sharpe Ratio</text>
+        <text x="24" y="158" fill="#047857" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">2.81 (Top 2%)</text>
+        <rect x="16" y="184" width="184" height="65" rx="6" fill="#FAF8FF" stroke="#CDB7F6"/>
+        <text x="24" y="206" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700">Figma Design Token</text>
+        <text x="24" y="222" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="9">Mapped to React/D3.js</text>
+      </g>
+    </g>
+  </g>
+</svg>

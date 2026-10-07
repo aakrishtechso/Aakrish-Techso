@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="50%" stop-color="#F6F2FF"/><stop offset="100%" stop-color="#E9D9FF"/>
+    </linearGradient>
+    <filter id="shL" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#A98BE3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgL)"/>
+  <g transform="translate(40, 30)" filter="url(#shL)">
+    <rect width="720" height="390" rx="16" fill="#FFFFFF" stroke="#CDB7F6" stroke-width="1.5"/>
+    <rect width="720" height="44" rx="16" fill="#F6F2FF"/>
+    <rect y="32" width="720" height="12" fill="#F6F2FF"/>
+    <line x1="0" y1="44" x2="720" y2="44" stroke="#E9D9FF" stroke-width="1.5"/>
+    <circle cx="28" cy="22" r="5" fill="#FDA4AF"/><circle cx="44" cy="22" r="5" fill="#FCD34D"/><circle cx="60" cy="22" r="5" fill="#86EFAC"/>
+    <rect x="250" y="12" width="220" height="20" rx="6" fill="#FFFFFF" stroke="#E9D9FF"/>
+    <text x="360" y="26" fill="#7C3AED" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Lumina Artisan • E-Commerce Store</text>
+    <g transform="translate(24, 60)">
+      <rect width="672" height="305" rx="12" fill="#FAF8FF" stroke="#E9D9FF"/>
+      <g transform="translate(24, 20)">
+        <rect width="320" height="265" rx="10" fill="#FFFFFF" stroke="#E9D9FF"/>
+        <rect x="16" y="16" width="288" height="160" rx="8" fill="#F6F2FF" stroke="#E9D9FF"/>
+        <circle cx="160" cy="96" r="44" fill="#E9D9FF" opacity="0.6"/>
+        <circle cx="160" cy="96" r="32" fill="#CDB7F6" opacity="0.6"/>
+        <circle cx="160" cy="96" r="18" fill="#7C3AED"/>
+        <text x="16" y="200" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Nordic Opal &amp; Brass Pendant</text>
+        <text x="16" y="216" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="11">Handspun Brushed Metal • Architectural Edition</text>
+        <text x="16" y="244" fill="#7C3AED" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">$385.00</text>
+        <rect x="200" y="226" width="104" height="28" rx="6" fill="#A98BE3"/>
+        <text x="252" y="244" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Quick Add +</text>
+      </g>
+      <g transform="translate(364, 20)">
+        <rect width="284" height="265" rx="10" fill="#FFFFFF" stroke="#E9D9FF"/>
+        <text x="16" y="28" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Slide-Out Cart &amp; Checkout</text>
+        <rect x="16" y="44" width="252" height="60" rx="6" fill="#F6F2FF"/>
+        <rect x="24" y="52" width="44" height="44" rx="6" fill="#E9D9FF"/>
+        <text x="76" y="68" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">Brass Pendant</text>
+        <text x="76" y="82" fill="#7C3AED" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">$385.00</text>
+        <rect x="16" y="112" width="252" height="60" rx="6" fill="#F6F2FF"/>
+        <rect x="24" y="120" width="44" height="44" rx="6" fill="#E9D9FF"/>
+        <text x="76" y="136" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">Terrazzo Vessel</text>
+        <text x="76" y="150" fill="#7C3AED" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">$140.00</text>
+        <line x1="16" y1="184" x2="268" y2="184" stroke="#E9D9FF" stroke-width="1"/>
+        <text x="16" y="204" fill="#6B7280" font-family="-apple-system, sans-serif" font-size="11">Total (Express Free Ship)</text>
+        <text x="268" y="204" fill="#1E1B4B" font-family="-apple-system, sans-serif" font-size="14" font-weight="800" text-anchor="end">$525.00</text>
+        <rect x="16" y="218" width="252" height="34" rx="8" fill="#7C3AED"/>
+        <text x="142" y="240" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Stripe 1-Click Pay 🔒</text>
+      </g>
+    </g>
+  </g>
+</svg>
